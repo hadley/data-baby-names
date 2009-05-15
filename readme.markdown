@@ -1,5 +1,5 @@
-Baby names
-==========
+US Baby names 1880-2009
+=======================
 
 Data
 ----
@@ -9,7 +9,7 @@ Data
 Percent of names in top 1000
 ----------------------------
 
-![Percent of baby names in top 1000](images/ofall.png?raw=true)
+![Percent of baby names in top 1000](http://github.com/hadley/data-baby-names/raw/master/images/ofall.png)
 
 Since the 1960's the percentage of babies with names in the top 1000 has been shrinking, to it's current level of 80% of boys and 67% of girls.
 
@@ -18,4 +18,4 @@ Last letters
 
 Stimulated by the discussion on [Andrew Gelman's blog](http://www.stat.columbia.edu/~cook/movabletype/archives/2009/05/where_all_boys.html) (prompted by an old post of the [baby name wizard blog](http://www.babynamewizard.com/archives/2007/7/where-all-boys-end-up-nowadays)) here are plots showing the distribution of last letter of names, 1880-2008.
 
-![Distribution of last letter of baby names](images/last-letter.png?raw=true)
+![Distribution of last letter of baby names](http://github.com/hadley/data-baby-names/raw/master/images/last-letter.png)
