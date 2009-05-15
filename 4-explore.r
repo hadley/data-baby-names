@@ -7,6 +7,7 @@ sump <- colwise(sum, "percent")
 # occupies
 ofall <- ddply(all, .(year, sex), sump)
 qplot(year, percent, data = ofall, colour = sex, geom = "line") + ylim(0, 1)
+ggsave("images/ofall.png", dp = 72, width = 6, height = 4)
 # Recently trending down - names are become more diverse?
 
 
@@ -32,6 +33,7 @@ axes <- list(
 ll <- ddply(all, .(year, sex, last = letter(name, -1)), sump)
 qplot(year, percent, data = ll, colour = sex, geom = "line") + 
   facet_wrap(~ last) + axes
+ggsave("images/last-letter.png", dp = 72, width = 8, height = 8)
 last_plot() + scale_y_log10()
 
 # First letter
