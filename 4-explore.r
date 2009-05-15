@@ -33,7 +33,7 @@ axes <- list(
 ll <- ddply(all, .(year, sex, last = letter(name, -1)), sump)
 qplot(year, percent, data = ll, colour = sex, geom = "line") + 
   facet_wrap(~ last) + axes
-ggsave("images/last-letter.png", dp = 72, width = 8, height = 8)
+ggsave("images/last-letter.png", dp = 72, width = 12, height = 10)
 last_plot() + scale_y_log10()
 
 # First letter
