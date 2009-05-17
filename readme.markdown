@@ -4,7 +4,7 @@ US Baby names 1880-2009
 Data
 ----
 
-[baby-names.csv](baby-names.csv) contains the top 1000 girl and boy baby names from 1880 to 2009.  This data was aggregated from the data made available from the [social security administration](http://www.ssa.gov/OACT/babynames/).  If you want to recreate it yourself, run the files `1-download.r`, `2-parse.rb` and `3-clean.r` in order.  You will need both R and ruby.
+[baby-names.csv](http://github.com/hadley/data-baby-names/raw/master/baby-names.csv) contains the top 1000 girl and boy baby names from 1880 to 2009.  This data was aggregated from the data made available from the [social security administration](http://www.ssa.gov/OACT/babynames/).  If you want to recreate it yourself, run the files `1-download.r`, `2-parse.rb` and `3-clean.r` in order.  You will need both R and ruby.
 
 Percent of names in top 1000
 ----------------------------
